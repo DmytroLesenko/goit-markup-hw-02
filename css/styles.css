@@ -21,8 +21,8 @@ body {
   font-style: normal;
   text-decoration: none;
 }
-.page-nav .link:hover,
-.page-nav .link:focus {
+.menu .link:hover,
+.menu .link:focus {
   color: var(--active-blue);
 }
 .address-menu .link:hover,
@@ -140,4 +140,7 @@ body {
 }
 .page-footer {
   background: var(--dark-bg);
+}
+.foot {
+  color: var(--light-bg);
 }
